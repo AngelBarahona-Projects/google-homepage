@@ -1,0 +1,213 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+header, nav, div, section, aside, footer {
+    display: block;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* nav {
+    font-size: ;
+} */
+
+/* 
+
+Mapa de navegacion
+
+
+1st body (nav      marco-google    legals)
+
+1-1 nav (ul     input)
+
+1-2 marco-google (figure    div-busqueda   (outsider  botones))
+
+1-3 legal (nav  (ul   ul)) */
+
+.nav__google {
+    position: relative;
+    width: 100%;
+    height: 3em;
+    background-color: rgba(0, 0, 0, .03);
+}
+
+.nav__google ul {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav__google li {
+    font-size: 0.8em ;
+    padding-right: 3em;
+    color: rgba(0, 0, 0, .65);
+}
+
+.nav__google li:nth-child(3) {
+    margin-left: 40em;
+}
+
+.nav__google input {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    margin: 0;
+    padding: 0.3em 0.9em;
+    background-color: rgba(0, 68, 255, 0.664);
+    color: #ffffff;
+    border-radius: .2em;
+    font-size: 0.8em;
+}
+
+.nav__google img {
+    position: absolute;
+    right: 9em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.5em;
+}
+
+.div__marco-google {
+    position: absolute;
+    width: 45em;
+    height: 33em;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.div__busqueda {
+    position: relative;
+    height: 50%;
+    top: 0;
+}
+
+.div__marco-google figure {
+    position: relative;
+    transform: scale(0.6);
+}
+
+.img__lupa {
+    position: absolute;
+    left: 1.5em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.5em;
+}
+
+.div__input-outsider {
+    border: solid rgba(0, 0, 0, .15) 0.03em;
+    border-radius: 2em;
+    height: 3em;
+    width: 95%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: scale(0.8);
+}
+
+.div__input-outsider input {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 85%;
+    left: 4em;
+    border: none;
+    height: 1.3em;
+    font-size: 1.1em;
+}
+
+
+.div__botones-buscador {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 1em
+}
+
+.div__botones-buscador input {
+    border: none;
+    border-radius: .18em;
+    background-color: rgba(230, 230, 230, 0.562);
+    padding: 0.5em 1em;
+}
+
+.div__buscar {
+    margin-right: 0.6em;
+}
+
+.div__suerte {
+    margin-left: 0.6em;
+}
+
+.div__botones-buscador input:hover {
+    background-color: rgba(230, 230, 230, 0.836);
+    outline: solid 0.1em rgba(0, 0, 0, .03);
+}
+
+.div__botones-buscador p {
+    margin-top: 2em;
+}
+
+.div__legals {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.div__legals {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .03);
+    height: 3em;
+    color: rgba(0, 0, 0, .65);
+}
+
+.div__legals li {
+    padding-right: 2em;
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, .65);
+}
+
+.legal01 {
+    float: left;
+}
+
+.legal02 {
+    float: right;
+}
+
+/* @media screen and (min-width: 700px) {
+
+
+} */
+
+/* @media screen and (max-width: 699px and min-width: 320px) {
+    body {
+        color: black;
+    }
+} */
