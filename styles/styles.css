@@ -1,3 +1,5 @@
+/* reglas generales para el proyecto */
+
 body {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
@@ -54,9 +56,6 @@ Mapa de navegacion
     color: rgba(0, 0, 0, .65);
 }
 
-.nav__google li:nth-child(3) {
-    margin-left: 40em;
-}
 
 .nav__google input {
     position: absolute;
