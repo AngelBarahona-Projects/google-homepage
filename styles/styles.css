@@ -79,6 +79,8 @@ Mapa de navegacion
     width: 1.5em;
 }
 
+/* comienzo del marco donde iran la imagen y la barra de busqueda */
+
 .div__marco-google {
     position: absolute;
     width: 45em;
@@ -166,6 +168,11 @@ Mapa de navegacion
 .div__botones-buscador p {
     margin-top: 2em;
 }
+
+
+/* comienzo de barra inferior donde iran los terminos legales y demas */
+
+
 
 .div__legals {
     position: fixed;
